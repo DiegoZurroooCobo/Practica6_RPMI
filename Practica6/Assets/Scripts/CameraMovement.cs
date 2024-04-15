@@ -8,12 +8,14 @@ public class CameraMovement : MonoBehaviour
     //private Camera _camera;
     public Transform FollowObject; //El objeto al que sigue la camara 
     public Vector2 FollowOffset; // La distancia en la que el personaje se puede mover hasta que la camara se mueve 
-    //public float FollowSpeed;
+    public float FollowSpeed;
     private Vector2 Threshold; // Crea los limites de la camara 
+    private Rigidbody2D RB;
     void Start()
     {
         Threshold = CalculateThreshold();
         //_camera = GetComponent<Camera>();
+        RB = FollowObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -49,7 +51,9 @@ public class CameraMovement : MonoBehaviour
         { 
             newPosition.y = follow.y;
         }
-        transform.position = newPosition;
-        //transform.position = Vector3.MoveTowards(transform.position, newPosition, FollowSpeed * Time.deltaTime);
+        float moveSpeed = RB.velocity.magnitude > FollowSpeed ? RB.velocity.magnitude : FollowSpeed;
+               // un valor de float que es igual al valor maximo de velocidad 
+        //transform.position = newPosition;
+        transform.position = Vector3.MoveTowards(transform.position, newPosition, moveSpeed * Time.deltaTime);
     }
 }
