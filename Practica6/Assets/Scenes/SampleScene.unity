@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowObject: {fileID: 1992146131}
-  FollowOffset: {x: -0.92, y: 0.22}
+  FollowOffset: {x: -0.92, y: 0.78}
   FollowSpeed: 2
 --- !u!1 &739031421
 GameObject:
