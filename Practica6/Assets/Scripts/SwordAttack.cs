@@ -5,7 +5,7 @@ using UnityEngine;
 public class SwordAttack : MonoBehaviour
 {
     private float time = 0;
-    private float maxTime = 1;
+    private float maxTime = 0.5f;
 
     void Update()//instancia un meteorito cada x tiempo y mete la posicion en lista
     {

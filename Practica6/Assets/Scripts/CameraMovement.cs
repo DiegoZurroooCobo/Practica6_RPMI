@@ -11,6 +11,7 @@ public class CameraMovement : MonoBehaviour
     public float FollowSpeed;
     private Vector2 Threshold; // Crea los limites de la camara 
     private Rigidbody2D RB;
+
     void Start()
     {
         Threshold = CalculateThreshold();
@@ -21,9 +22,12 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 position = new Vector3(FollowObject.position.x, transform.position.y, transform.position.z);   
-        //Solamente sigue la posicion del personaje en el eje X
-        transform.position = position;
+        //if (!hitWall)
+        {
+            Vector3 position = new Vector3(FollowObject.position.x, transform.position.y, transform.position.z);
+            //Solamente sigue la posicion del personaje en el eje X
+            transform.position = position;
+        }
     }
     private Vector3 CalculateThreshold() // Calcula el tamaño del Threshold 
     {

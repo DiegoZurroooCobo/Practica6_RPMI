@@ -36,24 +36,24 @@ public class PlayerMovement : MonoBehaviour
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
-            _rend.flipX = true;
+            _rend.flipX = false;
             dir = Vector2.right;
         }
         else if (Input.GetKey(leftKey))
         {
-            _rend.flipX = false;
+            _rend.flipX = true;
             dir = new Vector2(-1, 0);
         }
 
         if (Input.GetKeyDown(clikAttack)) 
         {
-            if (_rend.flipX == true)
+            if (_rend.flipX == false)
             {
-                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x+1, transform.position.y), Quaternion.identity);
+                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x+0.5f, transform.position.y), Quaternion.identity);
             }
             else 
             {
-                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x-1, transform.position.y), Quaternion.identity);
+                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x-0.5f, transform.position.y), Quaternion.identity);
             }
                 
         }

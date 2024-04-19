@@ -18,10 +18,15 @@ public class Tutorial : MonoBehaviour
         {
             UiObject.SetActive(true);
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        UiObject.SetActive(false);
+        if (collision.gameObject.GetComponent<PlayerMovement>() != null)
+        {
+            UiObject.SetActive(false);
+            Destroy(this.gameObject);
+        }
     }
 }
