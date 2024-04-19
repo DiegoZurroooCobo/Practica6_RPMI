@@ -65,16 +65,16 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        //#region Animaciones
-        //if (dir != Vector2.zero)
-        //{
-        //    _animator.SetBool("IsWalking", true);
-        //}
-        //else
-        //{
-        //    _animator.SetBool("IsWalking", false);
-        //}
-        //#endregion
+        #region Animaciones
+        if (dir != Vector2.zero)
+        {
+            _animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            _animator.SetBool("IsWalking", false);
+        }
+        #endregion
     }
 
     private void FixedUpdate()
