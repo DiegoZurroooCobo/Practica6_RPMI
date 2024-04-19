@@ -45,10 +45,10 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.GetComponent<SwordAttack>())
         {
-            AudioManager.instance.PlayAudio(audioClip, "deahtEnemySound", false);
-            valueTotal = GameManager.instance.GetPoints();
-            valueTotal = value + valueTotal;
-            GameManager.instance.SetPoints(valueTotal);
+       //     AudioManager.instance.PlayAudio(audioClip, "deahtEnemySound", false);
+         //   valueTotal = GameManager.instance.GetPoints();
+         //   valueTotal = value + valueTotal;
+         //   GameManager.instance.SetPoints(valueTotal);
             Destroy(gameObject);
         }
     }
