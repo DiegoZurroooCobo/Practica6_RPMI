@@ -1202,6 +1202,7 @@ MonoBehaviour:
   rightKey: 100
   leftKey: 97
   jumpKey: 32
+  clikAttack: 323
   speed: 2
   jumpForce: 6.79
   rayDistance: 0.96
@@ -1211,6 +1212,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0}
   audioClip: {fileID: 0}
   maxJump: 2
+  sword: {fileID: 8026275068262488986, guid: 86ed7b5d2f82aa24da8338969999c698, type: 3}
 --- !u!50 &1992146129
 Rigidbody2D:
   serializedVersion: 4

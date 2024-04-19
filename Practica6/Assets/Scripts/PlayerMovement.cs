@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    public KeyCode rightKey, leftKey, jumpKey;
+    public KeyCode rightKey, leftKey, jumpKey, clikAttack;
     public float speed, jumpForce, rayDistance;
     public LayerMask groundMask;// mascara de colisiones que queremos
     public Vector2 pos;
     public AudioClip audioClip;
     public int maxJump = 2;
+    public GameObject sword;
 
     private SpriteRenderer _rend;
     private Animator _animator;
@@ -35,15 +36,27 @@ public class PlayerMovement : MonoBehaviour
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
-            _rend.flipX = false;
+            _rend.flipX = true;
             dir = Vector2.right;
         }
         else if (Input.GetKey(leftKey))
         {
-            _rend.flipX = true;
+            _rend.flipX = false;
             dir = new Vector2(-1, 0);
         }
 
+        if (Input.GetKeyDown(clikAttack)) 
+        {
+            if (_rend.flipX == true)
+            {
+                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x+1, transform.position.y), Quaternion.identity);
+            }
+            else 
+            {
+                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x-1, transform.position.y), Quaternion.identity);
+            }
+                
+        }
 
 
         if (Input.GetKeyDown(jumpKey))
