@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f867f483a5f772a43a1c522d5040c353
+guid: 52e113606141cf744a9f93ae33de3074
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,75 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: antorcha_final_0
+      name: antorcha_final_2_0
       rect:
         serializedVersion: 2
-        x: 141
-        y: 98
-        width: 23
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74635ab4ba8f6bc4c911420d617b41be
-      internalID: -1587372182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: antorcha_final_1
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 98
-        width: 26
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0242e4397fa31c840a4e2317d06aa2f9
-      internalID: -678917310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: antorcha_final_2
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 98
+        x: 41
+        y: 35
         width: 25
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89cccd0969a1ca2429e9d5346c64c262
-      internalID: -1859652814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: antorcha_final_3
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 98
-        width: 26
         height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -187,8 +124,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bf9a5a1cb77ae94a95964c577eaa71f
-      internalID: -898626518
+      spriteID: d6fb4485249ac4f4aacd12c6089b232c
+      internalID: 962556321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antorcha_final_2_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 35
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f47191a31b6ba141bc6ca1a6e2fe9e0
+      internalID: -318362531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antorcha_final_2_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 35
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13157185729ed8a46833853299d2bc89
+      internalID: -1851339747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antorcha_final_2_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 35
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad0067e28829aa4b9d030c16072cfe3
+      internalID: 1385870599
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      antorcha_final_0: -1587372182
-      antorcha_final_1: -678917310
-      antorcha_final_2: -1859652814
-      antorcha_final_3: -898626518
+      antorcha_final_2_0: 962556321
+      antorcha_final_2_1: -318362531
+      antorcha_final_2_2: -1851339747
+      antorcha_final_2_3: 1385870599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

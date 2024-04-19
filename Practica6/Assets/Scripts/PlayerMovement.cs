@@ -123,6 +123,13 @@ public class PlayerMovement : MonoBehaviour
         return false;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.GetComponent<Tutorial>() != null) 
+        { 
+            
+        }
+    }
 
 
     private void OnDrawGizmos()
