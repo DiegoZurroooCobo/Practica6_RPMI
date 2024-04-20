@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 dir;
     private bool isJumping = false;
+
     private int doubleJump = 0;
     // Start is called before the first frame update
     void Start()
@@ -47,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(clikAttack)) 
         {
+
             if (_rend.flipX == false)
             {
                 GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x+0.5f, transform.position.y), Quaternion.identity);
@@ -55,8 +57,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x-0.5f, transform.position.y), Quaternion.identity);
             }
-                
         }
+
+
 
 
         if (Input.GetKeyDown(jumpKey))
@@ -91,6 +94,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isJumping && (grnd || doubleJump < maxJump - 1))
         {
+            _animator.Play("Jumping");
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
             doubleJump++;
@@ -99,15 +103,16 @@ public class PlayerMovement : MonoBehaviour
         }
 
         isJumping = false;
+        
 
-      //  if (grnd)
-      //  {
-      //      _animator.SetBool("IsJumping", false);
-      //  }
-      //  else
-      //  {
-      //      _animator.SetBool("IsJumping", true);
-      //  }
+          if (grnd)
+          {
+              _animator.SetBool("isJumping", false);
+          }
+          else
+          {
+              _animator.SetBool("isJumping", true);
+          }
     }
 
     private bool IsGrounded()
