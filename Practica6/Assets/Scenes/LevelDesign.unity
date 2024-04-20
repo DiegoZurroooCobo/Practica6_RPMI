@@ -26867,7 +26867,7 @@ MonoBehaviour:
   leftKey: 97
   jumpKey: 32
   clikAttack: 323
-  speed: 1
+  speed: 1.25
   jumpForce: 4
   rayDistance: 0.5
   groundMask:
