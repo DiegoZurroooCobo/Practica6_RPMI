@@ -52,10 +52,12 @@ public class PlayerMovement : MonoBehaviour
             if (_rend.flipX == false)
             {
                 GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x+0.5f, transform.position.y), Quaternion.identity);
+                _animator.Play("AttackingIdle");
             }
             else 
             {
                 GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x-0.5f, transform.position.y), Quaternion.identity);
+                _animator.Play("AttackingIdle");
             }
         }
 
@@ -127,15 +129,6 @@ public class PlayerMovement : MonoBehaviour
 
         return false;
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.GetComponent<Tutorial>() != null) 
-        { 
-            
-        }
-    }
-
 
     private void OnDrawGizmos()
     {
