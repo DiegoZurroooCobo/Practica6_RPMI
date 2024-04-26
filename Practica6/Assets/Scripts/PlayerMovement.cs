@@ -49,9 +49,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(clikAttack))
         {   
-            float cuerrentTime = 0;
-            cuerrentTime += Time.deltaTime;
-            if (cuerrentTime <= 0.5f)//cambiar esto explicacion diego
             {       
                 _animator.Play("AttackingIdle");
             }
