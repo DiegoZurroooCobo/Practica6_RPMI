@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
@@ -46,19 +47,15 @@ public class PlayerMovement : MonoBehaviour
             dir = new Vector2(-1, 0);
         }
 
-        if (Input.GetKeyDown(clikAttack)) 
-        {
+        if (Input.GetKeyDown(clikAttack))
+        {   
+            float cuerrentTime = 0;
+            cuerrentTime += Time.deltaTime;
+            if (cuerrentTime <= 0.5f)//cambiar esto explicacion diego
+            {       
+                _animator.Play("AttackingIdle");
+            }
 
-            if (_rend.flipX == false)
-            {
-                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x+0.45f, transform.position.y), Quaternion.identity);
-                _animator.Play("AttackingIdle");
-            }
-            else 
-            {
-                GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x-0.45f, transform.position.y), Quaternion.identity);
-                _animator.Play("AttackingIdle");
-            }
         }
 
 
@@ -80,6 +77,18 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetBool("IsWalking", false);
         }
         #endregion
+    }
+
+    public void DamageZone()
+    {
+        if (_rend.flipX == false)
+        {
+            GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x + 0.45f, transform.position.y), Quaternion.identity);
+        }
+        else
+        {
+            GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x - 0.45f, transform.position.y), Quaternion.identity);
+        }
     }
 
     private void FixedUpdate()
@@ -105,16 +114,16 @@ public class PlayerMovement : MonoBehaviour
         }
 
         isJumping = false;
-        
 
-          if (grnd)
-          {
-              _animator.SetBool("isJumping", false);
-          }
-          else
-          {
-              _animator.SetBool("isJumping", true);
-          }
+
+        if (grnd)
+        {
+            _animator.SetBool("isJumping", false);
+        }
+        else
+        {
+            _animator.SetBool("isJumping", true);
+        }
     }
 
     private bool IsGrounded()
@@ -136,12 +145,12 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
 
-   // private void OnTriggerEnter2D(Collider2D collision)
-   // {
-   //     if (collision.GetComponent<ResetLevel>())
-   //     {
-   //         transform.position = pos;
-   //     }
-   // }
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if (collision.GetComponent<ResetLevel>())
+    //     {
+    //         transform.position = pos;
+    //     }
+    // }
 
 }
