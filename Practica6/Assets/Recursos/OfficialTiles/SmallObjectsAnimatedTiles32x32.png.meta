@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc27cd6148a9e914caa546d6703218f6
+guid: 8fa554a86c9311e43b525ba141db2c2c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,19 +81,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -108,19 +95,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,1399 +123,1366 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BaseStructureTile_0
+      name: SmallObjectsAnimatedTiles32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ed2dc60648d140848c5b26c52f562
+      internalID: -38774391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 1016
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b263d4e23941748a81f9d7e93e1a87
-      internalID: -1216827455
+      spriteID: 3e1758f60d976df4c8e707d1e21bef16
+      internalID: -1833023467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_1
+      name: SmallObjectsAnimatedTiles32x32_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 1016
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608bc70671c5c1d4793ece154cabbb3a
-      internalID: 495786158
+      spriteID: 33718a473f24c514d8ead4d2b170ad49
+      internalID: 1743640286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_2
+      name: SmallObjectsAnimatedTiles32x32_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 1016
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e330f8dec0081b4dae46107dda095ce
-      internalID: -1379697996
+      spriteID: e4ef8742a564c754f9f13bd31401f655
+      internalID: 818950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_3
+      name: SmallObjectsAnimatedTiles32x32_4
       rect:
         serializedVersion: 2
         x: 128
-        y: 1016
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83551477341ae9a489622e24d427c013
-      internalID: 954572502
+      spriteID: b49212721f8f4ec4bb9efed1fef83074
+      internalID: 2000691478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_4
+      name: SmallObjectsAnimatedTiles32x32_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 1016
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a966b956febb72744b84f8d78ae977ed
-      internalID: -360563615
+      spriteID: c2aad2601c5173749afb5f7908a0bbd5
+      internalID: 69721776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_5
+      name: SmallObjectsAnimatedTiles32x32_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1048
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c107814841cbe48a2fe2fabae171f9
+      internalID: -1921318702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_7
       rect:
         serializedVersion: 2
         x: 224
-        y: 1016
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9635f15594efca458de5bc8d3409ffe
-      internalID: 752365627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 1016
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b5942834213e30418e5b3ce5f2cd2bc
-      internalID: -887362837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_7
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1016
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7115df78dcd96f140b53c2e5588f4bc1
-      internalID: -1434478717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_8
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 1016
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dcfd3454a816e147a08078362492ec7
-      internalID: 845579556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_9
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: d330913e5d2e728408e8a2c7dfba8a85
-      internalID: 1648959313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78bb85935a4fe9e42aa4d3db4b6d9d20
-      internalID: -638729536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_11
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5826b4a340ee6b241b0ad1b725149144
-      internalID: 287143074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_12
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4284ee76f869b9347bb8fa18ef4d09c9
-      internalID: -2072318602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_13
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa30406e1a75946438b5d694ab0034ca
-      internalID: 632218815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_14
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 963ab35a367cb354aafed369be7ce236
-      internalID: 521813871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_15
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 295690d4fbf120b448231601da331723
-      internalID: 850415100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_16
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d3c23bfd15101a4c92d0d583cc99ec7
-      internalID: -618275305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_17
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38d4678aea208a345b2f3466ffb04999
-      internalID: -1299250625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_18
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67cbc1fd73c6add4c84f03cb46d2f41f
-      internalID: 1457704961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_19
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbd91443746f2814da41717082f98257
-      internalID: 307489821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_20
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc3281f1c860614e865499cc0fc9a50
-      internalID: -240690129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_21
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 692040186dc2a0146a7ea9de2923ce54
-      internalID: 57670948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_22
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 952
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a553f08d991423468b9a8035ac12a16
-      internalID: -500891743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_23
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 920
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6c5de977c1922147803519ebae4c03e
-      internalID: -1463517447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_24
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 920
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7ab1bf917eb9f24f8a71de9327a2c3c
-      internalID: -760556808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_25
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 920
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 126f18992eff8b747b96bbc374093116
-      internalID: 987123043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_26
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 888
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5056130747f19f49a09672ac8678303
-      internalID: 1888261573
+      spriteID: ed3f6ea9d2beb694eab90b783fa68db7
+      internalID: 1411781694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_27
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 888
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 288b2975d589bba4da0a9627dfeb51f7
-      internalID: -269449661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_28
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 888
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a19e70662da03ff418fc7e48ad17fd56
-      internalID: -358386089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_29
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 888
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d264e2f5f77911d4eb50be97e56c1998
-      internalID: -888433698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_30
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 888
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2737c9c8f2691f44292304f4dea333e5
-      internalID: 1337648506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_31
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 856
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da88a68c76318e34799c8ee14c3eae5d
-      internalID: 443193737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_32
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 856
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbf5b16ff1fdd5f44855fe2273f75104
-      internalID: -871674973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_33
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 856
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a887e6b22a833948bb7e6c49deec63d
-      internalID: 1065380252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_34
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 856
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: daa8b2cd369ebff4eb1f3833b4d6879e
-      internalID: -585107545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_35
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 856
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92d5d9c89ffbf0a45b0e64c18fd1cd84
-      internalID: -90084275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_36
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 856
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 9, y: -8}
-        - {x: 9, y: -12}
-        - {x: 1, y: -12}
-        - {x: 1, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 904b7f50c64947e428c15f7f364f50a3
-      internalID: 175123192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_37
+      name: SmallObjectsAnimatedTiles32x32_8
       rect:
         serializedVersion: 2
         x: 256
-        y: 856
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 5, y: 9}
-        - {x: 5, y: 3}
-        - {x: -5, y: 3}
-        - {x: -5, y: -3}
-        - {x: -16, y: -3}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 9}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443c2556e54e9e0478fb71249526fdb2
-      internalID: -1069419592
+      spriteID: 9b53d0cdb596f6c46ae1e1bd3de9e4cb
+      internalID: -1172955949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_38
+      name: SmallObjectsAnimatedTiles32x32_9
       rect:
         serializedVersion: 2
         x: 288
-        y: 856
+        y: 1048
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 8, y: -1}
-        - {x: 8, y: 3}
-        - {x: 0, y: 3}
-        - {x: 0, y: 7}
-        - {x: -8, y: 7}
-        - {x: -8, y: 11}
-        - {x: -16, y: 11}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -1}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd518b18216d3004e8400dd568e12603
-      internalID: -1913496607
+      spriteID: 157fc76da0fbd44499ea5590a112cccf
+      internalID: 585257488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_39
+      name: SmallObjectsAnimatedTiles32x32_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 856
+        x: 0
+        y: 1016
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 8, y: -13}
-        - {x: 0, y: -13}
-        - {x: 0, y: -9}
-        - {x: -8, y: -9}
-        - {x: -8, y: -5}
-        - {x: -16, y: -5}
-        - {x: -16, y: -16}
-        - {x: 8, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e582099167e85874d9102fd948309075
-      internalID: 979835021
+      spriteID: bfae9b92d6c2613408b99d03ddd19752
+      internalID: -1801730689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_40
+      name: SmallObjectsAnimatedTiles32x32_11
       rect:
         serializedVersion: 2
         x: 32
-        y: 824
+        y: 1016
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2af2bca527bfe04bb4f3174af800680
-      internalID: 835672863
+      spriteID: 1d041f586d4a52a43a4e3ee47e86bba6
+      internalID: 1092265371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_41
+      name: SmallObjectsAnimatedTiles32x32_12
       rect:
         serializedVersion: 2
         x: 64
-        y: 824
+        y: 1016
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07f6ac9b848e1ba4e9c535474d6b4fa7
-      internalID: 1030392730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_42
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 824
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e929577965f6e9a46bd74d5b40116b61
-      internalID: 1425002346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_43
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 824
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e65a353150c5cf145bab734a64c99b20
-      internalID: -307931620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_44
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 824
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f98a84801deb964a8baeadd7e654bb4
-      internalID: 17707544
+      spriteID: 507f53dd4bff575499c4cf8cf91668a9
+      internalID: -312651689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_45
+      name: SmallObjectsAnimatedTiles32x32_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798efd16f2719164ab865eee8fc96953
+      internalID: -451148850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd7c4303e139144ab483f5adac82166
+      internalID: 469334144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75537982a47bf81428554064f6574f43
+      internalID: 385184140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a336dbba9adf3428b8b44785dfb487
+      internalID: -746382872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_17
       rect:
         serializedVersion: 2
         x: 224
-        y: 824
+        y: 1016
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a73d39cceb1f244878ecb2f22ddf77
-      internalID: 1041492337
+      spriteID: 1807f178c7c13c64491299752c6890e4
+      internalID: 177342167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_46
+      name: SmallObjectsAnimatedTiles32x32_18
       rect:
         serializedVersion: 2
-        x: 320
-        y: 824
+        x: 256
+        y: 1016
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9ca72aec49ba245a12ee43ace02a91
-      internalID: 1345188517
+      spriteID: 4d65c9476aecd3349988458fbffa3be4
+      internalID: -595317892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_47
+      name: SmallObjectsAnimatedTiles32x32_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c308b2bea844771468904ed8d27b4b5b
+      internalID: 2040389509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df28cb7dcd17364448d4e6a645dbf71b
+      internalID: -2030443307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_21
       rect:
         serializedVersion: 2
         x: 32
-        y: 792
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb9a1c0ce65d0d42b5dda25389435ab
-      internalID: 2147477579
+      spriteID: 2abcffbe697493b489ffa8299316fcd8
+      internalID: -2091027731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_48
+      name: SmallObjectsAnimatedTiles32x32_22
       rect:
         serializedVersion: 2
         x: 64
-        y: 792
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac6e51e06cb6d04ab1f4cd90668c84d
-      internalID: -2056537683
+      spriteID: e36e756e9a9e1794bb0a651d32a728c7
+      internalID: -679843781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_49
+      name: SmallObjectsAnimatedTiles32x32_23
       rect:
         serializedVersion: 2
         x: 96
-        y: 792
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a2f6f7e7e3159e49a1d716a4e166116
-      internalID: -1297799919
+      spriteID: 8f3e3e4eb933fc04581775434198f628
+      internalID: -85675858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_50
+      name: SmallObjectsAnimatedTiles32x32_24
       rect:
         serializedVersion: 2
         x: 128
-        y: 792
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de1fc8d6d627149428febdc71f6a0925
-      internalID: -1149965073
+      spriteID: 16874efee336134479906835d4ec677c
+      internalID: 454483949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_51
+      name: SmallObjectsAnimatedTiles32x32_25
       rect:
         serializedVersion: 2
         x: 160
-        y: 792
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f3a108766816b42adde8765f9d4879
-      internalID: 1195210529
+      spriteID: f763ba5e02218074d995a04d8ef285b3
+      internalID: -172404150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_52
+      name: SmallObjectsAnimatedTiles32x32_26
       rect:
         serializedVersion: 2
-        x: 32
-        y: 760
+        x: 192
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05fd0c0020cdbc949b66b2994e637aa4
-      internalID: -445558189
+      spriteID: 1d797345a74baa14a92ba034f7b2eea9
+      internalID: 175465554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseStructureTile_53
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 760
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5175d2bd94be706419be7b76aca6388f
-      internalID: -2078750433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_54
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 760
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ad65d6b59d590545bfdc33f590d9d3d
-      internalID: -1123136504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_55
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 760
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4638f1fd2a7a99242b1b8f77c05fd9f3
-      internalID: 13479440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_56
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 760
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f395e6f1a44888e48990a95ed6a48adf
-      internalID: -1359061900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaseStructureTile_57
+      name: SmallObjectsAnimatedTiles32x32_27
       rect:
         serializedVersion: 2
         x: 224
-        y: 760
+        y: 984
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc6f86127f382549bb95cd271ed3bfe
-      internalID: 2025744905
+      spriteID: 22acec1af16e7d44c9ff5edd152a8568
+      internalID: -1638788216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9506afebcf09e745b381bed780aafad
+      internalID: 1975041521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de75df992090904487c59dc58b11494
+      internalID: 1834918339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5ca83de98e8264e997610e87ba612a
+      internalID: 1583582359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86503db811d6b8c44b44db89a8a5e111
+      internalID: 482205175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8d8dc7d0d8f04395f8eb1a570ea77
+      internalID: -723915408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501de56b30cd9d343ba7da6f5b81c86f
+      internalID: 1664372832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9e0da1aa8412458a6a38e10378271
+      internalID: -2104449039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dbcecadf2f0a04da326314ae65c7b0
+      internalID: -229274824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa0e831e57973643b8aa7a0cce3f54f
+      internalID: 1638559031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1baed2e74a69da48aea96944ae0e432
+      internalID: -9013121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765ef6652210d341881c4015d97cf0e
+      internalID: -36869549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e99467774888c469e902909ec405d4
+      internalID: -1656326789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 920
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23daac120abf5814e8010f47cd56b41f
+      internalID: -46139040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 920
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dace87d3aa8e546a8f7119d73c2e3a
+      internalID: -668939659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4c1b6f17981b1409404d75bfd5dda0
+      internalID: 1702729924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c0071142d430d408924a8d68aee765
+      internalID: -1206312611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe00e5ee85c0c144a367a092b6c66d8
+      internalID: -972614823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a306f70df1d024981a918e20f9c19d
+      internalID: -1412635492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324e96eb12c814d4aaf41fd9ce57d318
+      internalID: 1169303128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dca824e6c3d2342b870481ddd2b740
+      internalID: 1589694720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b352a9b47fadfe42bf47355bf28eeac
+      internalID: -152594452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ea8509c0e31304d939d2f9ab17c7d7
+      internalID: 230614266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370938d8109e4f44f93cf9ad501fbf50
+      internalID: -1686534328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa31cf1be373384e8c2a0b9e50ed108
+      internalID: -902848572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822a99ff638c4374187c78ec29b0892c
+      internalID: -282253719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fda05f7c7eac648a3cf98e2fbff9fa
+      internalID: 1126303233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461108ca5ae2ae84f8f2565492d1ecf9
+      internalID: 7231331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe216a35e7bf034e8049909185a8612
+      internalID: -1474378927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43e0497875284b48ba0d9623f551893
+      internalID: -201773102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b777eb437cdf6479a71b7a2d135c57
+      internalID: -1866856406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde0df4e127bc35488ee346a490c7793
+      internalID: 1275249090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_59
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a9dfa4795546488d8e9128b39d1ac
+      internalID: 127342820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_60
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fe81d0370bf924a89a2273c7a00137
+      internalID: 401251713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_61
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790359b6d5ebcc44dbde7a381bcf9337
+      internalID: -1515348394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0085ebb2216d4b873701eb342404d
+      internalID: 1878956485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f411f32162509419ef6b2e94275906
+      internalID: -1092331662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallObjectsAnimatedTiles32x32_64
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875f5520725e95942a2673ffe700a442
+      internalID: -1453438173
       vertices: []
       indices: 
       edges: []
@@ -1557,64 +1498,71 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BaseStructureTile_0: -1216827455
-      BaseStructureTile_1: 495786158
-      BaseStructureTile_10: -638729536
-      BaseStructureTile_11: 287143074
-      BaseStructureTile_12: -2072318602
-      BaseStructureTile_13: 632218815
-      BaseStructureTile_14: 521813871
-      BaseStructureTile_15: 850415100
-      BaseStructureTile_16: -618275305
-      BaseStructureTile_17: -1299250625
-      BaseStructureTile_18: 1457704961
-      BaseStructureTile_19: 307489821
-      BaseStructureTile_2: -1379697996
-      BaseStructureTile_20: -240690129
-      BaseStructureTile_21: 57670948
-      BaseStructureTile_22: -500891743
-      BaseStructureTile_23: -1463517447
-      BaseStructureTile_24: -760556808
-      BaseStructureTile_25: 987123043
-      BaseStructureTile_26: 1888261573
-      BaseStructureTile_27: -269449661
-      BaseStructureTile_28: -358386089
-      BaseStructureTile_29: -888433698
-      BaseStructureTile_3: 954572502
-      BaseStructureTile_30: 1337648506
-      BaseStructureTile_31: 443193737
-      BaseStructureTile_32: -871674973
-      BaseStructureTile_33: 1065380252
-      BaseStructureTile_34: -585107545
-      BaseStructureTile_35: -90084275
-      BaseStructureTile_36: 175123192
-      BaseStructureTile_37: -1069419592
-      BaseStructureTile_38: -1913496607
-      BaseStructureTile_39: 979835021
-      BaseStructureTile_4: -360563615
-      BaseStructureTile_40: 835672863
-      BaseStructureTile_41: 1030392730
-      BaseStructureTile_42: 1425002346
-      BaseStructureTile_43: -307931620
-      BaseStructureTile_44: 17707544
-      BaseStructureTile_45: 1041492337
-      BaseStructureTile_46: 1345188517
-      BaseStructureTile_47: 2147477579
-      BaseStructureTile_48: -2056537683
-      BaseStructureTile_49: -1297799919
-      BaseStructureTile_5: 752365627
-      BaseStructureTile_50: -1149965073
-      BaseStructureTile_51: 1195210529
-      BaseStructureTile_52: -445558189
-      BaseStructureTile_53: -2078750433
-      BaseStructureTile_54: -1123136504
-      BaseStructureTile_55: 13479440
-      BaseStructureTile_56: -1359061900
-      BaseStructureTile_57: 2025744905
-      BaseStructureTile_6: -887362837
-      BaseStructureTile_7: -1434478717
-      BaseStructureTile_8: 845579556
-      BaseStructureTile_9: 1648959313
+      SmallObjectsAnimatedTiles32x32_0: -38774391
+      SmallObjectsAnimatedTiles32x32_1: -1833023467
+      SmallObjectsAnimatedTiles32x32_10: -1801730689
+      SmallObjectsAnimatedTiles32x32_11: 1092265371
+      SmallObjectsAnimatedTiles32x32_12: -312651689
+      SmallObjectsAnimatedTiles32x32_13: -451148850
+      SmallObjectsAnimatedTiles32x32_14: 469334144
+      SmallObjectsAnimatedTiles32x32_15: 385184140
+      SmallObjectsAnimatedTiles32x32_16: -746382872
+      SmallObjectsAnimatedTiles32x32_17: 177342167
+      SmallObjectsAnimatedTiles32x32_18: -595317892
+      SmallObjectsAnimatedTiles32x32_19: 2040389509
+      SmallObjectsAnimatedTiles32x32_2: 1743640286
+      SmallObjectsAnimatedTiles32x32_20: -2030443307
+      SmallObjectsAnimatedTiles32x32_21: -2091027731
+      SmallObjectsAnimatedTiles32x32_22: -679843781
+      SmallObjectsAnimatedTiles32x32_23: -85675858
+      SmallObjectsAnimatedTiles32x32_24: 454483949
+      SmallObjectsAnimatedTiles32x32_25: -172404150
+      SmallObjectsAnimatedTiles32x32_26: 175465554
+      SmallObjectsAnimatedTiles32x32_27: -1638788216
+      SmallObjectsAnimatedTiles32x32_28: 1975041521
+      SmallObjectsAnimatedTiles32x32_29: 1834918339
+      SmallObjectsAnimatedTiles32x32_3: 818950
+      SmallObjectsAnimatedTiles32x32_30: 1583582359
+      SmallObjectsAnimatedTiles32x32_31: 482205175
+      SmallObjectsAnimatedTiles32x32_32: -723915408
+      SmallObjectsAnimatedTiles32x32_33: 1664372832
+      SmallObjectsAnimatedTiles32x32_34: -2104449039
+      SmallObjectsAnimatedTiles32x32_35: -229274824
+      SmallObjectsAnimatedTiles32x32_36: 1638559031
+      SmallObjectsAnimatedTiles32x32_37: -9013121
+      SmallObjectsAnimatedTiles32x32_38: -36869549
+      SmallObjectsAnimatedTiles32x32_39: -1656326789
+      SmallObjectsAnimatedTiles32x32_4: 2000691478
+      SmallObjectsAnimatedTiles32x32_40: -46139040
+      SmallObjectsAnimatedTiles32x32_41: -668939659
+      SmallObjectsAnimatedTiles32x32_42: 1702729924
+      SmallObjectsAnimatedTiles32x32_43: -1206312611
+      SmallObjectsAnimatedTiles32x32_44: -972614823
+      SmallObjectsAnimatedTiles32x32_45: -1412635492
+      SmallObjectsAnimatedTiles32x32_46: 1169303128
+      SmallObjectsAnimatedTiles32x32_47: 1589694720
+      SmallObjectsAnimatedTiles32x32_48: -152594452
+      SmallObjectsAnimatedTiles32x32_49: 230614266
+      SmallObjectsAnimatedTiles32x32_5: 69721776
+      SmallObjectsAnimatedTiles32x32_50: -1686534328
+      SmallObjectsAnimatedTiles32x32_51: -902848572
+      SmallObjectsAnimatedTiles32x32_52: -282253719
+      SmallObjectsAnimatedTiles32x32_53: 1126303233
+      SmallObjectsAnimatedTiles32x32_54: 7231331
+      SmallObjectsAnimatedTiles32x32_55: -1474378927
+      SmallObjectsAnimatedTiles32x32_56: -201773102
+      SmallObjectsAnimatedTiles32x32_57: -1866856406
+      SmallObjectsAnimatedTiles32x32_58: 1275249090
+      SmallObjectsAnimatedTiles32x32_59: 127342820
+      SmallObjectsAnimatedTiles32x32_6: -1921318702
+      SmallObjectsAnimatedTiles32x32_60: 401251713
+      SmallObjectsAnimatedTiles32x32_61: -1515348394
+      SmallObjectsAnimatedTiles32x32_62: 1878956485
+      SmallObjectsAnimatedTiles32x32_63: -1092331662
+      SmallObjectsAnimatedTiles32x32_64: -1453438173
+      SmallObjectsAnimatedTiles32x32_7: 1411781694
+      SmallObjectsAnimatedTiles32x32_8: -1172955949
+      SmallObjectsAnimatedTiles32x32_9: 585257488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
