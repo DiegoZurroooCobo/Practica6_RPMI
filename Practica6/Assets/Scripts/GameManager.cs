@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance; //el game manager controla las variables del juego y es accesible a todos
     private float time;
     private int points;
+    private int lifes = 3;
     public enum GameManagerVariables { TIME, POINTS };//para facilitar el codigo
 
     private void Awake()
@@ -55,6 +56,18 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Me cerraste wey");
         Application.Quit();
+    }
+    public void LoseLifes()
+    {
+        lifes -= 1;
+        
+        LIFE.DesactiveLifes(lifes);
+    }
+    public void ReturnLifes()
+    {
+        LIFE.ActiveLifes(lifes);
+        lifes += 1;
+       
     }
 
 }
