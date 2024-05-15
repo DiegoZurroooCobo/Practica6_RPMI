@@ -63,11 +63,16 @@ public class GameManager : MonoBehaviour
         
         LIFE.DesactiveLifes(lifes);
     }
-    public void ReturnLifes()
+    public bool ReturnLifes()
     {
+        if (lifes == 3)
+        {
+            return false;
+        }
+
         LIFE.ActiveLifes(lifes);
         lifes += 1;
-       
+        return true;
     }
 
 }

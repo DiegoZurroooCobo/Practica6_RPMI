@@ -6,7 +6,11 @@ public class takelifes : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        GameManager.instance.ReturnLifes();
-        Destroy(this.gameObject);
+        bool lifeRecuperated = GameManager.instance.ReturnLifes();
+        if(lifeRecuperated)
+        {
+            Destroy(this.gameObject);
+        }
+        
     }
 }
