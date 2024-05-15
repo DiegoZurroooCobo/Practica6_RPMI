@@ -50,4 +50,6 @@ public abstract class Character
         return health;
     }
     public abstract float Attack(); // un metodo abstracto que no esta definido en la clase padre y que fuerzas a la clase hija 
+
+    public abstract float Magic();
 }
