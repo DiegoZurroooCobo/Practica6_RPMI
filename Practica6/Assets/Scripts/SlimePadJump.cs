@@ -15,6 +15,10 @@ public class SlimePadJump : MonoBehaviour
             {
                 collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
             }
+            else
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
+            }
         }
     }
 }
