@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,8 +70,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -108,7 +108,1414 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BaseStructureTile_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8eec098af415c46b4766d5039be637
+      internalID: -738991856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c04a35cd8e9ef342900216796934ffb
+      internalID: -1856277442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd19181a2a7fc04697d65722069520f
+      internalID: -1466643628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c165c2fec7857cd428503e89547c78ad
+      internalID: -1996478353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b5f7f7e34db92488351595973448c0
+      internalID: 1499304547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f20199bd71c0c4489726a941691931
+      internalID: -1110762448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bcd58f9d462b641b7af18a460eb66b
+      internalID: 63793016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86403cfa06f81054882d030c01917549
+      internalID: -2061895280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027678b9ac1ec6047bada82de7fd382d
+      internalID: -897635793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e823cb288ac28740bdeeba63bccce4a
+      internalID: -671939327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23322499601875140a1f4c1284fa44ee
+      internalID: -397595196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0386e8213c6e4429ef5620961ec650
+      internalID: -452540126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082d27fb80ba31e46b1b7ee8a4c27dd2
+      internalID: -1287553652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a328ead3bca664f92ffcea485541e6
+      internalID: -1193216406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1144972ecf541ac4e871c8f795708de4
+      internalID: -123990498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697baa3f4aa44ce4ca24dd541d207485
+      internalID: -1317691625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb5d01b3930ab44389d2ccef091ea32
+      internalID: -538288123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab58e802831ff624e8535310c69259a0
+      internalID: -1326011984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 984
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ccd4cb685f73c44b3eb4763d4d83ea
+      internalID: 376271665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f08666647187ca4f942c7a2452e66b3
+      internalID: 702938541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6849501c8bf49af4ebd9ea277ea92dff
+      internalID: -136967001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2feca252e55b614b9bd90d0bca2206a
+      internalID: 1544832213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a64222a63a06af419cd121681c1115e
+      internalID: -1648171443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e042b4de5f3a845b417386f62f5615
+      internalID: 1509422560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab1a6471d45dd04a8a5bf0648c3001f
+      internalID: -1773027421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a0ede3db235e42a72f3918324a551
+      internalID: -1288172174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbb6249fce5cca4b966ae83b121990a
+      internalID: -839334227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc92d71141d7dc142a8cb74742c548b7
+      internalID: -1582791727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0966507debbd18409003b87ea47d539
+      internalID: 751136800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f6f81c9a0a7264cb699eaf305cdd79
+      internalID: -1077362345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 920
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f009b7803190a934fa4dde98fad3a959
+      internalID: -802944100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 920
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c9d6ed51346ce46ba9e0414cf285d1
+      internalID: -240570955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 920
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6c2badb22c2374697342a67d28aeaa
+      internalID: -804063675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0e7a14da30c634cb2513b5393a2f79
+      internalID: -361448922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad723ca74df8bb4489f00abef9c870f
+      internalID: -696733458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4731bec0c777c4e8c4d98c5cdc78b1
+      internalID: -37591936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd2c6e3d9d876445a1a8a20f844e1ac
+      internalID: -161160589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 888
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd300c2a4187f4d4dbec31c88e2b2863
+      internalID: 76703238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5dd7c15449e15498d7acab43b5b147
+      internalID: 310180232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeccf855f88550948ad6d1eda7bd0603
+      internalID: -784594729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a5544a2bceef344941bc092a7a0065
+      internalID: -329806920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d550fd66ca0754a98465689ca9578d
+      internalID: 1720319003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c4cb1532ca580439a455e8f5e81e8b
+      internalID: 1518276071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0af05b72c46ce4cb76607b5c95ca1f
+      internalID: 1229902593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1206cbec538b8499ffcb8c2e73982c
+      internalID: 520506777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89984293eaa622540aa1c8b1578b6e26
+      internalID: -2080934701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200e31f67763f0844950e2aaaa04b46b
+      internalID: 2054661843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca797964989426c4389a6451bbcec9ee
+      internalID: 1615639473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137c52dbd2b1dfb46acc08a71df3837e
+      internalID: 2031878511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71320bee8daf3ee4bbef2e8b3b677a91
+      internalID: -435663025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b44c89848edba9488c2f9f05801bcd0
+      internalID: -1418002633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e0cd7078a9474aa711ad67c866846
+      internalID: -757885032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdae31052ac01cf4a9999e8dd523e31c
+      internalID: 1995744506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0801d1a0e1b1aa45a4e80b39b233f85
+      internalID: -1264755209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c729a0eca9de42bcef87c6e475201
+      internalID: -1301669095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45be5613d3faaf94eaba93c8d11a559d
+      internalID: 113283602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 792
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c196cba460d254bb7c3ecf58c577c8
+      internalID: -588089951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 792
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c8fe4d0c3637b4baab21ba6234608d
+      internalID: -1617623922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 792
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc35a0978112c47458e6789b815d6846
+      internalID: -1589666907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 792
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b15827b3fa9da488339ac2186af40f
+      internalID: -263928736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 792
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b7f84d6707574f87f024bb80adc31
+      internalID: 2003392158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 760
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b532c9a73f0244bbba013ef76be763
+      internalID: -590191261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 760
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea780ded6d357aa49a0ea56368a5b07a
+      internalID: 30327699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 760
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d369f029100b25446990f194a9927378
+      internalID: -1455123252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 760
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f8d335c83fb4044a8bd7ccbdadaa4b
+      internalID: 665504339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 760
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ca52800f491a4cb295fceaeaadfd1
+      internalID: -2079901627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseStructureTile_2_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 760
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4e546c2b33b0945a328cfdc8c78f51
+      internalID: 1435672486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1526,74 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BaseStructureTile_2_0: -738991856
+      BaseStructureTile_2_1: -1856277442
+      BaseStructureTile_2_10: -397595196
+      BaseStructureTile_2_11: -452540126
+      BaseStructureTile_2_12: -1287553652
+      BaseStructureTile_2_13: -1193216406
+      BaseStructureTile_2_14: -123990498
+      BaseStructureTile_2_15: -1317691625
+      BaseStructureTile_2_16: -538288123
+      BaseStructureTile_2_17: -1326011984
+      BaseStructureTile_2_18: 376271665
+      BaseStructureTile_2_19: 702938541
+      BaseStructureTile_2_2: -1466643628
+      BaseStructureTile_2_20: -136967001
+      BaseStructureTile_2_21: 1544832213
+      BaseStructureTile_2_22: -1648171443
+      BaseStructureTile_2_23: 1509422560
+      BaseStructureTile_2_24: -1773027421
+      BaseStructureTile_2_25: -1288172174
+      BaseStructureTile_2_26: -839334227
+      BaseStructureTile_2_27: -1582791727
+      BaseStructureTile_2_28: 751136800
+      BaseStructureTile_2_29: -1077362345
+      BaseStructureTile_2_3: -1996478353
+      BaseStructureTile_2_30: -802944100
+      BaseStructureTile_2_31: -240570955
+      BaseStructureTile_2_32: -804063675
+      BaseStructureTile_2_33: -361448922
+      BaseStructureTile_2_34: -696733458
+      BaseStructureTile_2_35: -37591936
+      BaseStructureTile_2_36: -161160589
+      BaseStructureTile_2_37: 76703238
+      BaseStructureTile_2_38: 310180232
+      BaseStructureTile_2_39: -784594729
+      BaseStructureTile_2_4: 1499304547
+      BaseStructureTile_2_40: -329806920
+      BaseStructureTile_2_41: 1720319003
+      BaseStructureTile_2_42: 1518276071
+      BaseStructureTile_2_43: 1229902593
+      BaseStructureTile_2_44: 520506777
+      BaseStructureTile_2_45: -2080934701
+      BaseStructureTile_2_46: 2054661843
+      BaseStructureTile_2_47: 1615639473
+      BaseStructureTile_2_48: 2031878511
+      BaseStructureTile_2_49: -435663025
+      BaseStructureTile_2_5: -1110762448
+      BaseStructureTile_2_50: -1418002633
+      BaseStructureTile_2_51: -757885032
+      BaseStructureTile_2_52: 1995744506
+      BaseStructureTile_2_53: -1264755209
+      BaseStructureTile_2_54: -1301669095
+      BaseStructureTile_2_55: 113283602
+      BaseStructureTile_2_56: -588089951
+      BaseStructureTile_2_57: -1617623922
+      BaseStructureTile_2_58: -1589666907
+      BaseStructureTile_2_59: -263928736
+      BaseStructureTile_2_6: 63793016
+      BaseStructureTile_2_60: 2003392158
+      BaseStructureTile_2_61: -590191261
+      BaseStructureTile_2_62: 30327699
+      BaseStructureTile_2_63: -1455123252
+      BaseStructureTile_2_64: 665504339
+      BaseStructureTile_2_65: -2079901627
+      BaseStructureTile_2_66: 1435672486
+      BaseStructureTile_2_7: -2061895280
+      BaseStructureTile_2_8: -897635793
+      BaseStructureTile_2_9: -671939327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
