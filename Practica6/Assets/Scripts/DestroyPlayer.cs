@@ -14,4 +14,15 @@ public class DestroyPlayer : MonoBehaviour
             //Destroy(collision.gameObject);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+        if (playerHealth)
+        {
+            playerHealth.LoseLifes();
+            //Destroy(collision.gameObject);
+        }
+    }
+
+
 }
