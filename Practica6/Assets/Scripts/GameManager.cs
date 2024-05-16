@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
     private KeyCode Esc = KeyCode.Escape;
+    public AudioClip SelectClip;
 
     public enum GameManagerVariables { TIME, POINTS };//para facilitar el codigo
 
@@ -59,6 +60,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        AudioManager.instance.PlayAudio(SelectClip, "selectClip");
         SceneManager.LoadScene(sceneName);
         AudioManager.instance.ClearAudio();
     }

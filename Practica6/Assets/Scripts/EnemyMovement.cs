@@ -11,7 +11,7 @@ public class EnemyMovement : MonoBehaviour
     private SpriteRenderer _rend;
     public int value = 1;
     private int valueTotal;
-    public AudioClip audioClip;
+    public AudioClip EnemyClip;
     private Vector2 pos;
     // Start is called before the first frame update
     void Start()
@@ -32,11 +32,13 @@ public class EnemyMovement : MonoBehaviour
             {
                 _rend.flipX = false;
                 pos = transform.position;
+                AudioManager.instance.PlayAudio(EnemyClip, "enemyclip");
             }
             else
             {
                 _rend.flipX = true;
                 pos = transform.position;
+                AudioManager.instance.PlayAudio(EnemyClip, "enemyclip");
             }
         }
     }
