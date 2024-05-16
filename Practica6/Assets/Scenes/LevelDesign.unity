@@ -332,7 +332,7 @@ Tilemap:
       - {fileID: -282253719, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: 1126303233, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: 7231331, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: 8, z: 0}
@@ -352,7 +352,7 @@ Tilemap:
       - {fileID: 230614266, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: -1686534328, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: -902848572, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -5449,7 +5449,7 @@ Tilemap:
       - {fileID: -312651689, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: -451148850, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: 469334144, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: 2, z: 0}
@@ -5615,8 +5615,9 @@ GameObject:
   - component: {fileID: 392768927}
   - component: {fileID: 392768929}
   - component: {fileID: 392768928}
+  - component: {fileID: 392768930}
   m_Layer: 5
-  m_Name: vida0
+  m_Name: vida1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5679,6 +5680,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392768926}
   m_CullTransparentMesh: 1
+--- !u!114 &392768930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392768926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 8.12, y: 0.9}
+  m_UseGraphicAlpha: 1
 --- !u!1 &600894914
 GameObject:
   m_ObjectHideFlags: 0
@@ -5990,7 +6006,7 @@ Tilemap:
       - {fileID: 373178459, guid: 592b0d7f756f923439f5dd3a7602e719, type: 3}
       - {fileID: -1052241493, guid: 592b0d7f756f923439f5dd3a7602e719, type: 3}
       - {fileID: 373178459, guid: 592b0d7f756f923439f5dd3a7602e719, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -9, y: -2, z: 0}
@@ -6045,7 +6061,7 @@ Tilemap:
       - {fileID: -1296327446, guid: 956a30fda02bfc44581c90e83c0d0a54, type: 3}
       - {fileID: 63520090, guid: 956a30fda02bfc44581c90e83c0d0a54, type: 3}
       - {fileID: -1296327446, guid: 956a30fda02bfc44581c90e83c0d0a54, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 11, y: 4, z: 0}
@@ -6829,6 +6845,7 @@ GameObject:
   - component: {fileID: 913328028}
   - component: {fileID: 913328033}
   - component: {fileID: 913328034}
+  - component: {fileID: 913328035}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7026,6 +7043,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   POINTS: {fileID: 1795343438}
   coins: 0
+--- !u!114 &913328035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913328027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0ef33f32ceedf478d2f0f918e6cded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &931221905
 GameObject:
   m_ObjectHideFlags: 0
@@ -9192,8 +9221,9 @@ GameObject:
   - component: {fileID: 1866552533}
   - component: {fileID: 1866552535}
   - component: {fileID: 1866552534}
+  - component: {fileID: 1866552536}
   m_Layer: 5
-  m_Name: vida1
+  m_Name: vida2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9256,6 +9286,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866552532}
   m_CullTransparentMesh: 1
+--- !u!114 &1866552536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866552532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 8.12, y: 0.9}
+  m_UseGraphicAlpha: 0
 --- !u!1 &1878400784
 GameObject:
   m_ObjectHideFlags: 0
@@ -9379,8 +9424,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidas:
-  - {fileID: 392768926}
   - {fileID: 1866552532}
+  - {fileID: 392768926}
   - {fileID: 1983759385}
 --- !u!1 &1983759385
 GameObject:
@@ -9393,8 +9438,9 @@ GameObject:
   - component: {fileID: 1983759386}
   - component: {fileID: 1983759388}
   - component: {fileID: 1983759387}
+  - component: {fileID: 1983759389}
   m_Layer: 5
-  m_Name: vida2
+  m_Name: vida0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9457,6 +9503,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983759385}
   m_CullTransparentMesh: 1
+--- !u!114 &1983759389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983759385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 8.12, y: 0.9}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2080051801
 GameObject:
   m_ObjectHideFlags: 0

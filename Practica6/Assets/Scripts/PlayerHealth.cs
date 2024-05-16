@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -16,6 +18,10 @@ public class PlayerHealth : MonoBehaviour
     public void LoseLifes()
     {
         lifes -= 1;
+        if(lifes == 0)
+        {
+            SceneManager.LoadScene(0);
+        }
 
         lifeInterface.DesactiveLifes(lifes);
     }
