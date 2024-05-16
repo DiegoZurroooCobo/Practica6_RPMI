@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
     private KeyCode Esc = KeyCode.Escape;
-    public AudioClip SelectClip;
+    //public AudioClip SelectClip;
 
     public enum GameManagerVariables { TIME, POINTS };//para facilitar el codigo
 
@@ -31,12 +31,16 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(Esc)) 
         {
             SceneManager.LoadScene("Menu");
- //           AudioManager.instance.ClearAudio();
+            AudioManager.instance.ClearAudio();
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             AudioManager.instance.ClearAudio();
+        }
+        if(Input.GetKeyDown(KeyCode.Backspace)) 
+        {
+            ExitGame();
         }
     }
 
