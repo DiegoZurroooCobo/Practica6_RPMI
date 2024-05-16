@@ -197,7 +197,7 @@ MonoBehaviour:
   player: {fileID: 0}
   speedEnemy: 0.5
   value: 1
-  EnemyClip: {fileID: 0}
+  EnemyClip: {fileID: 8300000, guid: 66de453ad5b08be479b692e17d75d712, type: 3}
 --- !u!114 &6892697057669976223
 MonoBehaviour:
   m_ObjectHideFlags: 0

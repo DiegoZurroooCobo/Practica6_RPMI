@@ -40,12 +40,13 @@ public class PlayerMovement : MonoBehaviour
         {
             _rend.flipX = false;
             dir = Vector2.right;
-            AudioManager.instance.PlayAudio(WalkClip, "walksound");
+            //AudioManager.instance.PlayAudio(WalkClip, "walksound", false);
         }
         else if (Input.GetKey(leftKey))
         {
             _rend.flipX = true;
             dir = new Vector2(-1, 0);
+            //AudioManager.instance.PlayAudio(WalkClip, "walksound", false);
         }
 
         if (Input.GetKeyDown(clikAttack))
@@ -82,12 +83,12 @@ public class PlayerMovement : MonoBehaviour
         if (_rend.flipX == false)
         {
             GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x + 0.45f, transform.position.y), Quaternion.identity);
-            AudioManager.instance.PlayAudio(SwordClip, "swordclip");
+            AudioManager.instance.PlayAudio(SwordClip, "swordclip", false, 1);
         }
         else
         {
             GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x - 0.45f, transform.position.y), Quaternion.identity);
-            AudioManager.instance.PlayAudio(SwordClip, "swordclip");
+            AudioManager.instance.PlayAudio(SwordClip, "swordclip", false, 1);
         }
     }
 

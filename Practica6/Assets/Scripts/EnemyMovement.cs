@@ -23,22 +23,20 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         if (player != null)
         {
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(player.position.x, transform.position.y), speedEnemy * Time.deltaTime);
 
-            if (pos.x>transform.position.x)
+            if (pos.x > transform.position.x)
             {
                 _rend.flipX = false;
                 pos = transform.position;
-                AudioManager.instance.PlayAudio(EnemyClip, "enemyclip");
             }
             else
             {
                 _rend.flipX = true;
                 pos = transform.position;
-                AudioManager.instance.PlayAudio(EnemyClip, "enemyclip");
             }
         }
     }
@@ -47,10 +45,10 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.GetComponent<SwordAttack>())
         {
-       //     AudioManager.instance.PlayAudio(audioClip, "deahtEnemySound", false);
-         //   valueTotal = GameManager.instance.GetPoints();
-         //   valueTotal = value + valueTotal;
-         //   GameManager.instance.SetPoints(valueTotal);
+            AudioManager.instance.PlayAudio(EnemyClip, "deahtEnemySound", false);
+            //   valueTotal = GameManager.instance.GetPoints();
+            //   valueTotal = value + valueTotal;
+            //   GameManager.instance.SetPoints(valueTotal);
             Destroy(gameObject);
         }
     }

@@ -16,7 +16,7 @@ public class Puntuation : MonoBehaviour
         {
             other.gameObject.GetComponent<points>().agarrar(); // la moneda sumara puntos y se destruir al entrar en contacto con Puntuacion
             Destroy(gameObject);
-            //audiomanager.instance.PlayAudio(coinClip, "coinSound"); //la moneda sonara
+            AudioManager.instance.PlayAudio(coinClip, "coinSound", false, 0.5f); //la moneda sonara
         }
 
     }

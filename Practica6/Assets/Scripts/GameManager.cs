@@ -60,7 +60,6 @@ public class GameManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        AudioManager.instance.PlayAudio(SelectClip, "selectClip");
         SceneManager.LoadScene(sceneName);
         AudioManager.instance.ClearAudio();
     }
