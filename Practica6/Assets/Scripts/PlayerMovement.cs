@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public KeyCode rightKey, leftKey, jumpKey, clikAttack;
-    public float speed, jumpForce, rayDistance;
+    public float speed, jumpForce, rayDistance, bounceSpeed;
     public LayerMask groundMask;// mascara de colisiones que queremos
     public Vector2 pos;
     public AudioClip JumpClip, WalkClip, SwordClip;
@@ -76,6 +76,11 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetBool("IsWalking", false);
         }
         #endregion
+    }
+
+    public void Bounce() //Salto de Mario Bros con el enemigo
+    {
+        rb.velocity = new Vector2(rb.velocity.x, bounceSpeed);
     }
 
     public void DamageZone()
