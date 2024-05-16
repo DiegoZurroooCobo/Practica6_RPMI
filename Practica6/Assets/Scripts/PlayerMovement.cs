@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed, jumpForce, rayDistance;
     public LayerMask groundMask;// mascara de colisiones que queremos
     public Vector2 pos;
-    public AudioClip audioClip;
+    public AudioClip JumpClip, WalkClip, SwordClip;
     public int maxJump = 2;
     public GameObject sword;
 
@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _rend.flipX = false;
             dir = Vector2.right;
+            AudioManager.instance.PlayAudio(WalkClip, "walksound");
         }
         else if (Input.GetKey(leftKey))
         {
@@ -81,10 +82,12 @@ public class PlayerMovement : MonoBehaviour
         if (_rend.flipX == false)
         {
             GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x + 0.45f, transform.position.y), Quaternion.identity);
+            AudioManager.instance.PlayAudio(SwordClip, "swordclip");
         }
         else
         {
             GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x - 0.45f, transform.position.y), Quaternion.identity);
+            AudioManager.instance.PlayAudio(SwordClip, "swordclip");
         }
     }
 
@@ -106,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
             doubleJump++;
-            //     AudioManager.instance.PlayAudio(audioClip, "jumpSound", false);
+            AudioManager.instance.PlayAudio(JumpClip, "jumpSound", false);
             Debug.Log(doubleJump);
         }
 
