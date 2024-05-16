@@ -35,7 +35,7 @@ public class Jefe2 : Character
         float currentMana;
         currentMana = 1;
         mana -= currentMana;
-        if (mana >= 0) 
+        if (mana >= 1) 
         {
             cure = GetMaxHealth();
             health += cure;

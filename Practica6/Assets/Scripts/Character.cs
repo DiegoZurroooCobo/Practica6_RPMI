@@ -28,6 +28,10 @@ public abstract class Character
     {
         return _sprite;
     }
+    public float GetMana() 
+    {
+        return mana;
+    }
     public float GetDamage()  // el metodo que aparecera en los hijos para el da�o 
     {
         return damage;

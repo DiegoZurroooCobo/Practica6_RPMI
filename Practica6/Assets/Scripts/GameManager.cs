@@ -29,6 +29,12 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(Esc)) 
         {
             SceneManager.LoadScene("Menu");
+ //           AudioManager.instance.ClearAudio();
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            AudioManager.instance.ClearAudio();
         }
     }
 
