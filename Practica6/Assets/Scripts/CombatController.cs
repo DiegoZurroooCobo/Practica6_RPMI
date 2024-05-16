@@ -81,7 +81,13 @@ public class CombatController : MonoBehaviour
         interfaceComponent.healButton.interactable = false;
         interfaceComponent.magicButton.interactable = false;
         interfaceComponent.attackButton.interactable = false;
-        
+
+        if (enemy.health <= 0)
+        {
+            _ani.SetBool("isDead", true);
+            GameManager.instance.LoadScene("Win");
+        }
+
         yield return new WaitForSeconds(4);
 
         _animator.SetBool("isPunching", false); //FALSEEEEEEEEEEEE
@@ -117,12 +123,6 @@ public class CombatController : MonoBehaviour
                 character.health -= dmg; // para que al atacar el enemigo haga daño 
                 interfaceComponent.vidaEnemy(enemy);
             }
-        }
-
-        if (enemy.health <= 0)
-        {
-            _ani.SetBool("isDead", true);
-            GameManager.instance.LoadScene("Win");
         }
 
         if (character.health <= 0)
