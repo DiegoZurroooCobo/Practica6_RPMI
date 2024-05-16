@@ -8,7 +8,6 @@ using UnityEngine.Video;
 
 public class CombatController : MonoBehaviour
 {
-    public float enemyDamage = 0f;
     public Character character, enemy;
     private InterfaceBoss interfaceComponent;
 
@@ -45,20 +44,11 @@ public class CombatController : MonoBehaviour
         enemy.health -= dmg; // para que el enemigo sufra daño 
         interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo
 
-        //_spriteRenderer.sprite = character.SetSprite("Punch");
-
         _animator.SetBool("isPunching", true);
         _animator.Play("Punch");
 
         StartCoroutine(EnemyAttack());
-        //while (enemyDamage < 4)
-        //{
-        //    enemyDamage += Time.deltaTime;
-        //    if (enemyDamage >= 4)
-        //    {
-        //        EnemyAttack();
-        //    }
-        //}
+        
         
     }
 
@@ -66,7 +56,7 @@ public class CombatController : MonoBehaviour
     {
         character.Heal(); // llamamos a la vida del personaje desde el gamemanager y la guardamos
         interfaceComponent.vidaCharacter(character); // para enseñar la vida del personaje
-                                                     // 
+                                                     
 
         StartCoroutine(EnemyAttack());
     }
@@ -88,6 +78,16 @@ public class CombatController : MonoBehaviour
         interfaceComponent.healButton.interactable = false;
         interfaceComponent.magicButton.interactable = false;
         interfaceComponent.attackButton.interactable = false;
+        if (enemy.health <= 0)
+        {
+            GameManager.instance.LoadScene("Win");
+        }
+
+        if (character.health <= 0)
+        {
+
+            SceneManager.LoadScene("Menu");
+        }
         yield return new WaitForSeconds(4);
 
         _animator.SetBool("isPunching", false); //FALSEEEEEEEEEEEE
@@ -123,16 +123,6 @@ public class CombatController : MonoBehaviour
         interfaceComponent.magicButton.interactable = true;
         interfaceComponent.healButton.interactable = true;
 
-        if (enemy.health <= 0)
-        {
-            GameManager.instance.LoadScene("Win");
-        }
-
-        if (character.health <= 0)
-        {
-
-            SceneManager.LoadScene("Menu");
-        }
         
     }
 }

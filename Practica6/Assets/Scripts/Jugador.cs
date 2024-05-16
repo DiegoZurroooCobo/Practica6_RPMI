@@ -19,6 +19,22 @@ public class Jugador : Character
             return damage * 2;
         }
     }
+    public override float Heal()
+    {
+        if (health>30)
+        {
+            health += 20;
+            base.Heal();
+            return 20;
+        }
+        else
+        {
+            health += 40;
+            base.Heal();
+            return 40;
+        }
+       
+    }
 
     public override float Magic()
     {

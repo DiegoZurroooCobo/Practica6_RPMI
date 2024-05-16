@@ -18,7 +18,7 @@ public class Jefe2 : Character
     }
     public override float Attack()
     {
-        int kill = Random.Range(0, 4);
+        int kill = Random.Range(0, 1);
         if (kill == 0)
         {
             return damage;
@@ -32,8 +32,7 @@ public class Jefe2 : Character
     public override float Magic()
     {
         float cure;
-        float currentMana;
-        currentMana = 1;
+        float currentMana = 1;
         mana -= currentMana;
         if (mana >= 1) 
         {
