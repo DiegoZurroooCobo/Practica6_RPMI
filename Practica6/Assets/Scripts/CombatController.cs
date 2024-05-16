@@ -12,7 +12,7 @@ public class CombatController : MonoBehaviour
     private InterfaceBoss interfaceComponent;
 
     private SpriteRenderer _spriteRenderer;
-    public Animator _animator;
+    public Animator _animator, _ani;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +47,7 @@ public class CombatController : MonoBehaviour
         _animator.SetBool("isPunching", true);
        // _animator.Play("Punch");
 
+        CancelAnimation();
         StartCoroutine(EnemyAttack());
         
         
@@ -58,6 +59,7 @@ public class CombatController : MonoBehaviour
         interfaceComponent.vidaCharacter(character); // para enseñar la vida del personaje
         _animator.SetBool("isHealing", true);
 
+        CancelAnimation();
         StartCoroutine(EnemyAttack());
     }
 
@@ -69,6 +71,7 @@ public class CombatController : MonoBehaviour
         interfaceComponent.vidaEnemy(enemy);
 
         _animator.SetBool("isSwording", true);
+        CancelAnimation();
         StartCoroutine(EnemyAttack());
 
     }
@@ -78,17 +81,7 @@ public class CombatController : MonoBehaviour
         interfaceComponent.healButton.interactable = false;
         interfaceComponent.magicButton.interactable = false;
         interfaceComponent.attackButton.interactable = false;
-        if (enemy.health <= 0)
-        {
-            _animator.SetBool("isDead", true);
-            GameManager.instance.LoadScene("Win");
-        }
-
-        if (character.health <= 0)
-        {
-            _animator.SetBool("isDied", true);
-            SceneManager.LoadScene("Menu");
-        }
+        
         yield return new WaitForSeconds(4);
 
         _animator.SetBool("isPunching", false); //FALSEEEEEEEEEEEE
@@ -98,22 +91,22 @@ public class CombatController : MonoBehaviour
         int num = Random.Range(0, 3); // para coger un valor random de si ataca o no 
         if (num == 0) // si sale 0 el enemigo ataca 
         {
-            _animator.SetBool("isAttacking", true);
             float dmg = enemy.Attack(); // para llamar al daño del enemigo 
             character.health -= dmg; // para que al atacar el enemigo haga daño 
             interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo 
+            _ani.SetBool("isAttacking", true);
 
         }
         else if (num == 1) // si sale 1 el enemigo se cura 
         {
-            _animator.SetBool("isHealing1", true);
             enemy.Heal();
             interfaceComponent.vidaEnemy(enemy);
+            _ani.SetBool("isHealing1", true);
         }
         else
         {
-            _animator.SetBool("isMana", true);
-            if (enemy.GetMana() > 5)
+            _ani.SetBool("isMana", true);
+            if (enemy.GetMana() < 5)
             {
                 enemy.Magic();
                 interfaceComponent.vidaEnemy(enemy);
@@ -125,15 +118,28 @@ public class CombatController : MonoBehaviour
                 interfaceComponent.vidaEnemy(enemy);
             }
         }
-        _animator.SetBool("isAttackin", false); //FALSEEEEEEEEEEEE
-        _animator.SetBool("isHealing1", false);
-        _animator.SetBool("isMana", false);
+
+        if (enemy.health <= 0)
+        {
+            _ani.SetBool("isDead", true);
+            GameManager.instance.LoadScene("Win");
+        }
+
+        if (character.health <= 0)
+        {
+            _animator.SetBool("isDied", true);
+            SceneManager.LoadScene("Menu");
+        }
 
         interfaceComponent.attackButton.interactable = true;
         interfaceComponent.magicButton.interactable = true;
         interfaceComponent.healButton.interactable = true;
-
-        
+    }
+    public void CancelAnimation() 
+    {
+        _ani.SetBool("isAttacking", false); //FALSEEEEEEEEEEEE
+        _ani.SetBool("isHealing1", false);
+        _ani.SetBool("isMana", false);
     }
 }
 
