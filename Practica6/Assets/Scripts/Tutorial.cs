@@ -26,7 +26,6 @@ public class Tutorial : MonoBehaviour
         if (collision.gameObject.GetComponent<PlayerMovement>() != null)
         {
             UiObject.SetActive(false);
-            Destroy(this.gameObject);
         }
     }
 }
