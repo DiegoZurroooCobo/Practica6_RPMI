@@ -10,7 +10,9 @@ public class DestroyPlayer : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerMovement>())
         {
-            Destroy(collision.gameObject);
+            GameManager.instance.LoseLifes();
+            //Destroy(collision.gameObject);
+
         }
     }
 }

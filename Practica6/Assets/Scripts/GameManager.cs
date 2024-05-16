@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
     {
         lifes -= 1;
         
-        LIFE.DesactiveLifes(lifes);
+        //LIFE.DesactiveLifes(lifes);
     }
     public bool ReturnLifes()
     {
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
             return false;
         }
 
-        LIFE.ActiveLifes(lifes);
+        //LIFE.ActiveLifes(lifes);
         lifes += 1;
         return true;
     }
