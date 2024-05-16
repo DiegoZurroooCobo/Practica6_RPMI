@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
     private KeyCode Esc = KeyCode.Escape;
+
     public enum GameManagerVariables { TIME, POINTS };//para facilitar el codigo
 
     private void Awake()
@@ -67,5 +68,4 @@ public class GameManager : MonoBehaviour
         Debug.Log("Me cerraste wey");
         Application.Quit();
     }
-
 }

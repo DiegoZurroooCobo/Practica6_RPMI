@@ -17466,7 +17466,7 @@ Tilemap:
       - {fileID: 373178459, guid: 592b0d7f756f923439f5dd3a7602e719, type: 3}
       - {fileID: -1052241493, guid: 592b0d7f756f923439f5dd3a7602e719, type: 3}
       - {fileID: 373178459, guid: 592b0d7f756f923439f5dd3a7602e719, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -9, y: -2, z: 0}
@@ -17499,7 +17499,7 @@ Tilemap:
       - {fileID: 1169303128, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: 1589694720, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
       - {fileID: 1169303128, guid: 8fa554a86c9311e43b525ba141db2c2c, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: -2, z: 0}
@@ -22572,6 +22572,67 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1001 &1059778449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.6692396
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3224397
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710193835081565091, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488384465235913611, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191137546710966376, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
+      propertyPath: m_Name
+      value: monedas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1123939818d8c9449b9e5fa2aec2420, type: 3}
 --- !u!1 &1066441989
 GameObject:
   m_ObjectHideFlags: 0
@@ -25245,6 +25306,7 @@ GameObject:
   - component: {fileID: 1878400787}
   - component: {fileID: 1878400786}
   - component: {fileID: 1878400785}
+  - component: {fileID: 1878400789}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -25328,6 +25390,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 115285537}
+  - {fileID: 1795343437}
+  - {fileID: 392768927}
+  - {fileID: 1866552533}
+  - {fileID: 1983759386}
+  - {fileID: 1335526071}
+  - {fileID: 1624025519}
+  - {fileID: 311806679}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
