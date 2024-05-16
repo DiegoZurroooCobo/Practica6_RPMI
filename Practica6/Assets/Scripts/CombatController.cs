@@ -56,7 +56,7 @@ public class CombatController : MonoBehaviour
     {
         character.Heal(); // llamamos a la vida del personaje desde el gamemanager y la guardamos
         interfaceComponent.vidaCharacter(character); // para enseñar la vida del personaje
-                                                     
+        _animator.SetBool("isHealing", true);
 
         StartCoroutine(EnemyAttack());
     }
@@ -68,7 +68,7 @@ public class CombatController : MonoBehaviour
         enemy.health -= dmg; // para que el enemigo sufra daño 
         interfaceComponent.vidaEnemy(enemy);
 
-
+        _animator.SetBool("isSwording", true);
         StartCoroutine(EnemyAttack());
 
     }
@@ -80,21 +80,25 @@ public class CombatController : MonoBehaviour
         interfaceComponent.attackButton.interactable = false;
         if (enemy.health <= 0)
         {
+            _animator.SetBool("isDead", true);
             GameManager.instance.LoadScene("Win");
         }
 
         if (character.health <= 0)
         {
-
+            _animator.SetBool("isDied", true);
             SceneManager.LoadScene("Menu");
         }
         yield return new WaitForSeconds(4);
 
         _animator.SetBool("isPunching", false); //FALSEEEEEEEEEEEE
+        _animator.SetBool("isHealing", false);
+        _animator.SetBool("isSwording", false);
 
         int num = Random.Range(0, 3); // para coger un valor random de si ataca o no 
         if (num == 0) // si sale 0 el enemigo ataca 
         {
+            _animator.SetBool("isAttacking", true);
             float dmg = enemy.Attack(); // para llamar al daño del enemigo 
             character.health -= dmg; // para que al atacar el enemigo haga daño 
             interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo 
@@ -102,11 +106,13 @@ public class CombatController : MonoBehaviour
         }
         else if (num == 1) // si sale 1 el enemigo se cura 
         {
+            _animator.SetBool("isHealing1", true);
             enemy.Heal();
             interfaceComponent.vidaEnemy(enemy);
         }
         else
         {
+            _animator.SetBool("isMana", true);
             if (enemy.GetMana() > 5)
             {
                 enemy.Magic();
@@ -119,6 +125,10 @@ public class CombatController : MonoBehaviour
                 interfaceComponent.vidaEnemy(enemy);
             }
         }
+        _animator.SetBool("isAttackin", false); //FALSEEEEEEEEEEEE
+        _animator.SetBool("isHealing1", false);
+        _animator.SetBool("isMana", false);
+
         interfaceComponent.attackButton.interactable = true;
         interfaceComponent.magicButton.interactable = true;
         interfaceComponent.healButton.interactable = true;
