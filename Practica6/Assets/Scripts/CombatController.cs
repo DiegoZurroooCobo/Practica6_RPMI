@@ -45,7 +45,7 @@ public class CombatController : MonoBehaviour
         interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo
 
         _animator.SetBool("isPunching", true);
-        _animator.Play("Punch");
+       // _animator.Play("Punch");
 
         StartCoroutine(EnemyAttack());
         
