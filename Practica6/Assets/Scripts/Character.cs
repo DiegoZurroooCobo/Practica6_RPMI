@@ -28,6 +28,11 @@ public abstract class Character
     {
         return _sprite;
     }
+    
+    public void SetSprite(Sprite _sprite)
+    {
+        this._sprite = _sprite;
+    }
     public float GetMana() 
     {
         return mana;

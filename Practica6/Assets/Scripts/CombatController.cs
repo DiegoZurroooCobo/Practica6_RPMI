@@ -11,9 +11,14 @@ public class CombatController : MonoBehaviour
     public float enemyDamage = 0f;
     public Character character, enemy;
     private InterfaceBoss interfaceComponent;
+
+    private SpriteRenderer _spriteRenderer;
+    public Animator _animator;
     // Start is called before the first frame update
     void Start()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+
         character = new Jugador();
         if (Random.Range(0, 2) == 0)
         {
@@ -40,6 +45,10 @@ public class CombatController : MonoBehaviour
         enemy.health -= dmg; // para que el enemigo sufra daño 
         interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo
 
+        //_spriteRenderer.sprite = character.SetSprite("Punch");
+
+        _animator.SetBool("isPunching", true);
+        _animator.Play("Punch");
 
         StartCoroutine(EnemyAttack());
         //while (enemyDamage < 4)
@@ -50,6 +59,7 @@ public class CombatController : MonoBehaviour
         //        EnemyAttack();
         //    }
         //}
+        
     }
 
     public void PlayerHeal()
@@ -79,6 +89,8 @@ public class CombatController : MonoBehaviour
         interfaceComponent.magicButton.interactable = false;
         interfaceComponent.attackButton.interactable = false;
         yield return new WaitForSeconds(4);
+
+        _animator.SetBool("isPunching", false); //FALSEEEEEEEEEEEE
 
         int num = Random.Range(0, 3); // para coger un valor random de si ataca o no 
         if (num == 0) // si sale 0 el enemigo ataca 
@@ -121,6 +133,7 @@ public class CombatController : MonoBehaviour
 
             SceneManager.LoadScene("Menu");
         }
+        
     }
 }
 
