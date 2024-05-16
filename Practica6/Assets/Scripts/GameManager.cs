@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance; //el game manager controla las variables del juego y es accesible a todos
     private float time;
     private int points;
+    private KeyCode Esc = KeyCode.Escape;
     public enum GameManagerVariables { TIME, POINTS };//para facilitar el codigo
 
     private void Awake()
@@ -25,6 +26,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
+        if(Input.GetKeyDown(Esc)) 
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 
     // getter
