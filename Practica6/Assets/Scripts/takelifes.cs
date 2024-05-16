@@ -11,16 +11,13 @@ public class takelifes : MonoBehaviour
         //{
         //    Destroy(this.gameObject);
         //}
-       
-        
-            if (other.GetComponent<PlayerMovement>())
-            {
-                GameManager.instance.ReturnLifes(); // la moneda sumara puntos y se destruir al entrar en contacto con Puntuacion
-                Destroy(gameObject);
-                //audiomanager.instance.PlayAudio(coinClip, "coinSound"); //la moneda sonara
-            }
 
-        
-
+        PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+        if (playerHealth)
+        {
+            playerHealth.ReturnLifes(); // la moneda sumara puntos y se destruir al entrar en contacto con Puntuacion
+            Destroy(gameObject);
+            //audiomanager.instance.PlayAudio(coinClip, "coinSound"); //la moneda sonara
+        }
     }
 }

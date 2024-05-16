@@ -8,11 +8,10 @@ public class DestroyPlayer : MonoBehaviour
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<PlayerMovement>())
-        {
-            GameManager.instance.LoseLifes();
+        PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+        if (playerHealth) { 
+            playerHealth.LoseLifes();
             //Destroy(collision.gameObject);
-
         }
     }
 }

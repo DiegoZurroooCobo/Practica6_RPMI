@@ -15,4 +15,9 @@ public class LIFE : MonoBehaviour
     {
         vidas[index].SetActive(true);
     }
+
+    private void Update()
+    {
+        
+    }
 }
