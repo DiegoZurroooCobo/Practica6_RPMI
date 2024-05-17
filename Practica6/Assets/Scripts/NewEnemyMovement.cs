@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class NewEnemyMovement : MonoBehaviour
@@ -53,20 +52,19 @@ public class NewEnemyMovement : MonoBehaviour
     {
 
 
-        float value = 5;
-        if (value == 5)
+
+
+        if (collision.gameObject.GetComponent<PlayerMovement>())
         {
-            if (collision.gameObject.GetComponent<PlayerMovement>())
+            if (collision.GetContact(0).normal.y <= -0.9) // Si saltas encima del Enemigo pasa esto:
             {
-                if (collision.GetContact(0).normal.y <= -0.9) // Si saltas encima del Enemigo pasa esto:
-                {
-                    collision.gameObject.GetComponent<PlayerMovement>().Bounce();
-                    AudioManager.instance.PlayAudio(EnemyClip, "deahtEnemySound", false);
-                    Destroy(gameObject);
-                    
-                }
+                collision.gameObject.GetComponent<PlayerMovement>().Bounce();
+                AudioManager.instance.PlayAudio(EnemyClip, "deahtEnemySound", false);
+                Destroy(gameObject);
+
             }
         }
+
     }
 
     private bool ChaseLeft()

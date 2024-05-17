@@ -115,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
             doubleJump++;
-            AudioManager.instance.PlayAudio(JumpClip, "jumpSound", false);
+            AudioManager.instance.PlayAudio(JumpClip, "jumpSound", false, 0.5f);
             Debug.Log(doubleJump);
         }
 
