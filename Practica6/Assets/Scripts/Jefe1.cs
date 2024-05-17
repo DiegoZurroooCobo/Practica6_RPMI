@@ -12,7 +12,7 @@ public class Jefe1 : Character
     public override float Heal()
     {
         float cure;
-        cure = damage * 2;
+        cure = damage * 1.25f;
         health += cure;
         base.Heal();
         return cure;

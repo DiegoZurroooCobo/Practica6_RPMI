@@ -33,9 +33,9 @@ public class Jefe2 : Character
     {
         float cure;
         float currentMana = 1;
-        mana -= currentMana;
         if (mana >= 1) 
         {
+            mana -= currentMana;
             cure = GetMaxHealth();
             health += cure;
             base.Heal();
