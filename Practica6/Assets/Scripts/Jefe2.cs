@@ -6,7 +6,7 @@ public class Jefe2 : Character
 {
    
 
-    public Jefe2() : base("Yanes", 70 , Resources.Load<Sprite>("Sprites/cowboy") , 600 , 1)
+    public Jefe2() : base("Yanes", 65 , Resources.Load<Sprite>("Sprites/cowboy") , 600 , 1)
     {
     }
 
