@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 dir;
     private bool isJumping = false;
+    public float radius;
 
     private int doubleJump = 0;
     // Start is called before the first frame update
@@ -134,7 +135,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        RaycastHit2D raycastHits = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundMask);
+        
+        RaycastHit2D raycastHits = Physics2D.CircleCast(transform.position - new Vector3(0, _rend.bounds.size.y/2, 0), radius , Vector2.down, rayDistance, groundMask);
         if (raycastHits)
         {
             doubleJump = 0;
@@ -147,8 +149,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        _rend = GetComponent<SpriteRenderer>();
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
+        Gizmos.DrawWireSphere(transform.position - new Vector3(0, _rend.bounds.size.y/2, 0), radius);
     }
 
     // private void OnTriggerEnter2D(Collider2D collision)
