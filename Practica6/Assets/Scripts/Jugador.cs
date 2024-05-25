@@ -10,7 +10,7 @@ public class Jugador : Character
 
     public override float Attack()
     {
-        if (health>30) 
+        if (health>90) 
         {
             return damage;
         }
@@ -21,7 +21,7 @@ public class Jugador : Character
     }
     public override float Heal()
     {
-        if (health>30)
+        if (health>75)
         {
             health += 20;
             base.Heal();
@@ -44,7 +44,7 @@ public class Jugador : Character
 
         if (mana >= 25)
         {
-            if (health > 30)
+            if (health > 90)
         {
                 return damage * 2;
             }
