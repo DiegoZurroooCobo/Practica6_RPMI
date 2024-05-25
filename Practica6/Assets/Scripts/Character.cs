@@ -5,21 +5,21 @@ using UnityEngine;
 
 public abstract class Character
 {
-    private float maxHealth;
-    public float health;
+    private float maxHealth,  maxMana;
+    public float health, mana;
     private string _name;
     private Sprite _sprite;
-    protected float damage, mana;
-
+    protected float damage;
 
     public Character() { }
-    public Character(string name, float damage, Sprite sprite, float maxHealth, float mana) // para que todos los hijos del character tengan nombre danyo y un sprite 
+    public Character(string name, float damage, Sprite sprite, float maxHealth, float maxMana) // para que todos los hijos del character tengan nombre danyo y un sprite 
     {
         this._name = name;
         this.damage = damage;
         _sprite = sprite;
         this.maxHealth = maxHealth;
-        this.mana = mana;
+        this.maxMana = maxMana;
+        mana = maxMana;
         health = maxHealth;
     }
 
@@ -33,9 +33,9 @@ public abstract class Character
     {
         this._sprite = _sprite;
     }
-    public float GetMana() 
+    public float GetMaxMana() 
     {
-        return mana;
+        return maxMana;
     }
     public float GetDamage()  // el metodo que aparecera en los hijos para el da�o 
     {
@@ -58,7 +58,11 @@ public abstract class Character
         health = Mathf.Clamp(health, 0, maxHealth);  // lo clampeamos para que al curarse no sobrepase los 100 de vida 
         return health;
     }
-    public abstract float Attack(); // un metodo abstracto que no esta definido en la clase padre y que fuerzas a la clase hija 
+    public virtual float Attack()
+    {
+        mana = Mathf.Clamp(mana, 0, maxMana);
+        return mana;
+    } // un metodo abstracto que no esta definido en la clase padre y que fuerzas a la clase hija 
 
     public abstract float Magic();
 }

@@ -42,6 +42,7 @@ public class CombatController : MonoBehaviour
     {
         float dmg = character.Attack(); // para llamar al daño del personaje desde el game manager y guardarlo
         enemy.health -= dmg; // para que el enemigo sufra daño 
+        character.mana += 10;
         interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo
 
         _animator.SetBool("isPunching", true);
@@ -112,7 +113,7 @@ public class CombatController : MonoBehaviour
         else
         {
             _ani.SetBool("isMana", true);
-            if (enemy.GetMana() < 5)
+            if (enemy.mana < 5)
             {
                 enemy.Magic();
                 interfaceComponent.vidaEnemy(enemy);

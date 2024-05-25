@@ -9,13 +9,15 @@ public class InterfaceBoss : MonoBehaviour
 {
 
     
-    public Slider sliderPlayer, sliderEnemigo;
+    public Slider sliderPlayer, sliderEnemigo, sliderMana;
     public Button attackButton, healButton, magicButton;
 
     public void vidaCharacter(Character character)
     {
         sliderPlayer.maxValue = character.GetMaxHealth();
         sliderPlayer.value = character.health;
+        sliderMana.maxValue = character.GetMaxMana();
+        sliderMana.value = character.mana;
 
     }
     public void vidaEnemy(Character enemy)

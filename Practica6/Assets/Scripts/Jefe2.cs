@@ -6,7 +6,7 @@ public class Jefe2 : Character
 {
    
 
-    public Jefe2() : base("Yanes", 65 , Resources.Load<Sprite>("Sprites/cowboy") , 600 , 1)
+    public Jefe2() : base("Yanes", 70 , Resources.Load<Sprite>("Sprites/cowboy") , 600 , 1)
     {
     }
 
@@ -18,7 +18,7 @@ public class Jefe2 : Character
     }
     public override float Attack()
     {
-        int kill = Random.Range(0, 1);
+        int kill = Random.Range(0, 2);
         if (kill == 0)
         {
             return damage;
