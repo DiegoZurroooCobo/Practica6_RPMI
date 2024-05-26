@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
         lifes -= 1;
         if(lifes == 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(6);
         }
 
         lifeInterface.DesactiveLifes(lifes);

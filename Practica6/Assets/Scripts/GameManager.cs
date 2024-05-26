@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -72,5 +73,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Me cerraste wey");
         Application.Quit();
+    }
+
+    internal void LoadScene(object sceneName)
+    {
+        throw new NotImplementedException();
     }
 }

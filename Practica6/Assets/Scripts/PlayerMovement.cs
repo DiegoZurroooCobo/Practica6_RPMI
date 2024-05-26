@@ -55,7 +55,6 @@ public class PlayerMovement : MonoBehaviour
             {       
                 _animator.Play("AttackingIdle");
             }
-
         }
 
 

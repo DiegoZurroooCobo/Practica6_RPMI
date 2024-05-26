@@ -9,14 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 30ba0dcdedeccab418157f8aa1d75c41
   - enabled: 1
+    path: Assets/Scenes/Cinematic.unity
+    guid: f4a76fbbe245ce24691f1405544e1871
+  - enabled: 1
     path: Assets/Scenes/LevelDesign.unity
     guid: e7cc2ad557867db41b6f41cb72c11fc9
   - enabled: 1
     path: Assets/Scenes/BossLevel.unity
     guid: 6e043630ecb6e4341b42cfb095cec6f7
   - enabled: 1
+    path: Assets/Scenes/LevelDesignTWO.unity
+    guid: 98d001d4b0fba974983dae97398d9ec0
+  - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 73ba43f2551f2df47a1e4cfd850b7bba
+  - enabled: 1
+    path: Assets/Scenes/Defeat.unity
+    guid: 878dd9d2859a3ba418263bba0f4d17d9
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729

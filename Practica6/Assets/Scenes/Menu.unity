@@ -1524,7 +1524,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LevelDesign
+          m_StringArgument: Cinematic
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1498506212
@@ -1762,7 +1762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e23d20650e1d6734aadb70277ee5b32f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectClip: {fileID: 0}
 --- !u!4 &1807221193
 Transform:
   m_ObjectHideFlags: 0
