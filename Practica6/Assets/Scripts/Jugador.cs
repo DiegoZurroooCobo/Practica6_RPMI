@@ -12,10 +12,14 @@ public class Jugador : Character
     {
         if (health>90) 
         {
+            mana += 10;
+            base.Attack();
             return damage;
         }
         else
         {
+            mana += 10;
+            base.Attack();
             return damage * 2;
         }
     }

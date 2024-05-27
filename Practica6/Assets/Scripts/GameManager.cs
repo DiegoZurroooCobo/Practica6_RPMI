@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
+            time = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             AudioManager.instance.ClearAudio();
         }
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        time = 0;
         SceneManager.LoadScene(sceneName);
         AudioManager.instance.ClearAudio();
     }

@@ -42,7 +42,6 @@ public class CombatController : MonoBehaviour
     {
         float dmg = character.Attack(); // para llamar al daño del personaje desde el game manager y guardarlo
         enemy.health -= dmg; // para que el enemigo sufra daño 
-        character.mana += 10;
         interfaceComponent.vidaEnemy(enemy); // para enseñar la vida del enemigo
 
         _animator.SetBool("isPunching", true);
