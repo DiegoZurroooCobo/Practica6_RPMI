@@ -88,12 +88,12 @@ public class PlayerMovement : MonoBehaviour
         if (_rend.flipX == false)
         {
             GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x + 0.45f, transform.position.y), Quaternion.identity);
-            AudioManager.instance.PlayAudio(SwordClip, "swordclip", false, 1);
+            AudioManager.instance.PlayAudio(SwordClip, "swordclip", false, 0.5f);
         }
         else
         {
             GameObject Attack1 = Instantiate(sword, new Vector2(transform.position.x - 0.45f, transform.position.y), Quaternion.identity);
-            AudioManager.instance.PlayAudio(SwordClip, "swordclip", false, 1);
+            AudioManager.instance.PlayAudio(SwordClip, "swordclip", false, 0.5f);
         }
     }
 
@@ -115,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
             doubleJump++;
-            AudioManager.instance.PlayAudio(JumpClip, "jumpSound", false, 0.5f);
+            AudioManager.instance.PlayAudio(JumpClip, "jumpSound", false, 0.25f);
             Debug.Log(doubleJump);
         }
 

@@ -15,12 +15,19 @@ public class PlayerHealth : MonoBehaviour
         lifes = lifeInterface.vidas.Length;
     }
 
+
+    public void ChangeScene()
+    {
+        GameManager.instance.LoadScene("Defeat");
+    }
+
     public void LoseLifes()
     {
         lifes -= 1;
         if(lifes == 0)
         {
-            SceneManager.LoadScene(6);
+            ChangeScene();
+            //SceneManager.LoadScene(6);
         }
 
         lifeInterface.DesactiveLifes(lifes);

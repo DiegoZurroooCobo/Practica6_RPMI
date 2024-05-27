@@ -129,7 +129,7 @@ public class CombatController : MonoBehaviour
         if (character.health <= 0)
         {
             _animator.SetBool("isDied", true);
-            GameManager.instance.LoadScene("Menu");
+            GameManager.instance.LoadScene("Defeat");
         }
 
         interfaceComponent.attackButton.interactable = true;

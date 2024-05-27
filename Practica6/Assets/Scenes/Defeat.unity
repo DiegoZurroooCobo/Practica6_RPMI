@@ -353,6 +353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 816574396}
+  - component: {fileID: 816574397}
   m_Layer: 0
   m_Name: BGMusic
   m_TagString: Untagged
@@ -375,6 +376,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816574397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816574395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e24cfcffb843e4ba395903c5cb6bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 0e5f4103d9c440f4ba901d86fd33bb48, type: 3}
+  isLoop: 0
+  playOnStart: 1
+  volume: 0.05
+  gameObjectName: 
 --- !u!1 &902574247
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,6 +793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1257365039}
+  - component: {fileID: 1257365040}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -797,6 +816,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257365040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257365038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08de1d31dc02fee488af28d9cf4f4a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1694396783
 GameObject:
   m_ObjectHideFlags: 0
